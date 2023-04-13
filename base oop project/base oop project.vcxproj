@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
+    <ClInclude Include="manager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bus h.cpp" />

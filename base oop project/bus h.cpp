@@ -23,4 +23,13 @@ public:
 		place = plc;
 	}
 
+	string convert() {
+		string msg = "Bus:";
+		msg += "brand = " + brend;
+		msg += " , "+ number;
+		msg += " , " + to_string(price);
+		msg += " , " + to_string(place);
+
+		return msg;																			
+	}
 };
